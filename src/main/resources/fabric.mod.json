@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "helden3",
+  "version": "${version}",
+  "name": "Helden 3",
+  "description": "Jeder Spieler hat 3 blaue Herzen. Bei jedem Tod geht eines verloren, nach dem dritten wird man zum Zuschauer.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.helden3.Helden3"],
+    "client": ["de.helden3.Helden3Client"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
